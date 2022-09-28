@@ -1,7 +1,13 @@
 import About from "../components/About";
+import Services from "../components/Services";
 
 const AboutUs = () => {
-	return <About />;
+	return (
+		<>
+			<About />
+			<Services />
+		</>
+	);
 };
 
 export default AboutUs;
